@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit46371223116a27b982f5c02513198529
+class ComposerStaticInit45b8d54a2aad85c58f6523b8da60d2ac
 {
     public static $files = array (
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
@@ -12,8 +12,8 @@ class ComposerStaticInit46371223116a27b982f5c02513198529
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
         'a1105708a18b76903365ca1c4aa61b02' => __DIR__ . '/..' . '/symfony/translation/Resources/functions.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '383eaff206634a77a1be54e64e6459c7' => __DIR__ . '/..' . '/sabre/uri/lib/functions.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '2b9d0f43f9552984cfa82fee95491826' => __DIR__ . '/..' . '/sabre/event/lib/coroutine.php',
         'd81bab31d3feb45bfe2f283ea3c8fdf7' => __DIR__ . '/..' . '/sabre/event/lib/Loop/functions.php',
         'a1cce3d26cc15c00fcd0b3354bd72c88' => __DIR__ . '/..' . '/sabre/event/lib/Promise/functions.php',
@@ -689,9 +689,9 @@ class ComposerStaticInit46371223116a27b982f5c02513198529
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit46371223116a27b982f5c02513198529::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit46371223116a27b982f5c02513198529::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit46371223116a27b982f5c02513198529::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit45b8d54a2aad85c58f6523b8da60d2ac::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit45b8d54a2aad85c58f6523b8da60d2ac::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit45b8d54a2aad85c58f6523b8da60d2ac::$classMap;
 
         }, null, ClassLoader::class);
     }
